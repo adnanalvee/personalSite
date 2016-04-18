@@ -22,9 +22,18 @@ p {
     
 }
 
-.startup {
+.story {
+    margin-right: 6px;
     margin-top: 8px;
+    text-align: center;
 }
+
+.ofmyStartup {
+    margin-right: 6px;
+    text-align: center;
+}
+
+
 .absolute-center, .menu, .menu .btn .fa, .menu .btn.trigger .line {
   position: absolute;
   top: 50%;
