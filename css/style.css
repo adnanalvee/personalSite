@@ -18,21 +18,8 @@ body {
 
 
 p {
-    margin-left: 15px;
-    
+   
 }
-
-.story {
-    margin-right: 6px;
-    margin-top: 8px;
-    text-align: center;
-}
-
-.ofmyStartup {
-    margin-right: 6px;
-    text-align: center;
-}
-
 
 .absolute-center, .menu, .menu .btn .fa, .menu .btn.trigger .line {
   position: absolute;
@@ -234,4 +221,46 @@ p {
 .menu.active .rotater:nth-child(8) .btn-icon {
   -webkit-transform: translateY(-10em) rotate(-292.5deg);
           transform: translateY(-10em) rotate(-292.5deg);
+}
+
+.btn .btn-icon:hover {
+color: rgba(255, 255, 255, 0.7);
+}
+
+.projects {
+     margin-left: 12px;
+    margin-top: 30px;
+}
+
+.blog {
+    margin-right: 0px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.resume {
+     margin-right: 0px;
+     margin-top: 30px;    
+    text-align: center;  
+}
+
+.story {
+    margin-right: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.startup {
+    margin-top: 17px;
+    text-align: center;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+    font-family: "nunito";
+}
+
+a:hover {
+    color:white;
 }
